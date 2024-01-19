@@ -1,6 +1,6 @@
 {
-  "name": "vue-draggable",
-  "version": "1.0.0",
+  "name": "vue-draggable-anywhere",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "keywords": [
     "vue-draggable"
   ],
-  "author": "Muhibbullah dev.muhibbullah@gmail.com",
+  "author": "Muhibbullah, dev.muhibbullah@gmail.com",
   "license": "ISC"
 }
