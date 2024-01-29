@@ -23,32 +23,31 @@ To make an element draggable, use the v-draggable-anywhere directive on the desi
 </template>
 
 <script setup>
-import 'vue-draggable-anywhere/dist/vue-draggable-anywhere.css'; // Import the styles
-import VueDraggable from 'vue-draggable-anywhere';
+    import VueDraggable from 'vue-draggable-anywhere';
 
-const draggableOptions = {
-  x: position.left,
-  y: layoutSize.height - position.bottom,
-  draggable: !item.child.length,
-  boundary: true,
-  parentClass: 'conceptChartContainer',
-  scrollableWrapperClass: 'mainContentWrapper',
-  afterDragEnd: (position) => handleDragEnd(position),
-};
+    const draggableOptions = {
+    x: position.left,
+    y: layoutSize.height - position.bottom,
+    draggable: !item.child.length,
+    boundary: true,
+    parentClass: 'conceptChartContainer',
+    scrollableWrapperClass: 'mainContentWrapper',
+    afterDragEnd: (position) => handleDragEnd(position),
+    };
 
-const handleDragEnd = (position) => {
-  // Your logic after drag ends
-};
+    const handleDragEnd = (position) => {
+    // Your logic after drag ends
+    };
 </script>
 
 
-Configuration
-The v-draggable-anywhere directive accepts various configuration options to customize the draggable behavior. Here are some of the available options:
+##Configuration
+###The v-draggable-anywhere directive accepts various configuration options to customize the draggable behavior. Here are some of the available options:
 
-x (Number): Initial x-coordinate of the element.
-y (Number): Initial y-coordinate of the element.
-draggable (Boolean): Whether the element is draggable.
-boundary (Boolean): Whether to constrain the draggable element within its parent container.
-parentClass (String): Class name of the parent container.
-scrollableWrapperClass (String): Class name of the scrollable wrapper.
-afterDragEnd (Function): Callback function called after the drag operation ends.
+``x (Number): Initial x-coordinate of the element.
+``y (Number): Initial y-coordinate of the element.
+``draggable (Boolean): Whether the element is draggable.
+``boundary (Boolean): Whether to constrain the draggable element within its parent container.
+``parentClass (String): Class name of the parent container.
+``scrollableWrapperClass (String): Class name of the scrollable wrapper.
+``afterDragEnd (Function): Callback function called after the drag operation ends.
