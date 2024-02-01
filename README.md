@@ -15,39 +15,40 @@ npm install vue-draggable-anywhere
 Usage
 To make an element draggable, use the v-draggable-anywhere directive on the desired HTML element. Below is an example of how to use it:
 
-
+```
 <template>
   <div>
-    <h1 v-draggable-anywhere="draggableOptions">Move me</h1>
+    <h1 v-draggable="draggableOptions">Move me</h1>
   </div>
 </template>
-
+```
+```
 <script setup>
     import VueDraggable from 'vue-draggable-anywhere';
 
     const draggableOptions = {
-    x: position.left,
-    y: layoutSize.height - position.bottom,
-    draggable: !item.child.length,
-    boundary: true,
-    parentClass: 'conceptChartContainer',
-    scrollableWrapperClass: 'mainContentWrapper',
-    afterDragEnd: (position) => handleDragEnd(position),
+      x: position.left,
+      y: layoutSize.height - position.bottom,
+      draggable: !item.child.length,
+      boundary: true,
+      parentClass: 'conceptChartContainer',
+      scrollableWrapperClass: 'mainContentWrapper',
+      afterDragEnd: (position) => handleDragEnd(position),
     };
 
     const handleDragEnd = (position) => {
     // Your logic after drag ends
     };
 </script>
-
+```
 
 ##Configuration
 ###The v-draggable-anywhere directive accepts various configuration options to customize the draggable behavior. Here are some of the available options:
 
-``x (Number): Initial x-coordinate of the element.
-``y (Number): Initial y-coordinate of the element.
-``draggable (Boolean): Whether the element is draggable.
-``boundary (Boolean): Whether to constrain the draggable element within its parent container.
-``parentClass (String): Class name of the parent container.
-``scrollableWrapperClass (String): Class name of the scrollable wrapper.
-``afterDragEnd (Function): Callback function called after the drag operation ends.
+x (Number): Initial x-coordinate of the element.
+y (Number): Initial y-coordinate of the element.
+draggable (Boolean): Whether the element is draggable.
+boundary (Boolean): Whether to constrain the draggable element within its parent container.
+parentClass (String): Class name of the parent container.
+scrollableWrapperClass (String): Class name of the scrollable wrapper.
+afterDragEnd (Function): Callback function called after the drag operation ends.
