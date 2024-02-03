@@ -22,7 +22,7 @@ To  make  an  element  draggable,  use  the  v-draggable  directive  on  the  de
 	<div  style="height: 400px; width: 100%;background: cornflowerblue;">
 		<p>{{ position }}</p>
 		<h1
-			v-draggable="configuration"
+			v-draggable
 			style="width: 40px; height: 40px; background: red; display:flex; align-items: center;text-align: center; cursor: move; color: white;border-radius: 50%;"
 		>
 			Move
