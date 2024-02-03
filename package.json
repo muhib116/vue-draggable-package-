@@ -1,13 +1,18 @@
 {
   "name": "vue-draggable-anywhere",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "vue-draggable"
+    "vue-draggable",
+    "vue3-draggable",
+    "vue3-moveable",
+    "vue3-drag",
+    "vue3-move",
+    "vue3-drag-element"
   ],
   "author": "Muhibbullah, dev.muhibbullah@gmail.com",
   "license": "ISC",
