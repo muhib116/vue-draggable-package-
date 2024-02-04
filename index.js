@@ -1,43 +1,54 @@
 import { ref } from 'vue'
-
-const useDraggable = () => {
-    const position = ref({
+const config = ref({
+    element: null,
+    binding: null,
+    vNode: null,
+    isMouseDown: false,
+    isMouseMove: false,
+    position: {
         x: 0,
         y: 0
-    })
+    },
+    calculateThePosition: () => {}
+})
+const useDraggable = () => {
     const setElementPosition = (element, x, y) => {
         element.style.top = `${y}px`
         element.style.left = `${x}px`
     }
     const vDraggable = {
         mounted(element, binding, vNode) {
-            const draggable = binding.value?.draggable || true
-            const scrollableWrapper = document.querySelector(`${binding.value?.scrollableParentElement}`) || document.body
-            const parentElement = document.querySelector(`${binding.value?.parentElement}`) || document.body
-            const parentStyleInformation = parentElement.getBoundingClientRect()
-            const boundaryOffset = binding.value?.boundaryOffset
-            const boundary = binding.value?.boundary
+            config.value.element = element
+            config.value.binding = binding,
+            config.value.vNode = vNode
+
+            const draggable = config.value.binding.value?.draggable || true
+            const scrollableWrapper = document.querySelector(`${config.value.binding.value?.scrollableParentElement}`) || document.body
+            const boundaryElement = document.querySelector(`${config.value.binding.value?.boundaryElement}`) || document.body
+            const parentStyleInformation = boundaryElement.getBoundingClientRect()
+            const boundaryOffset = config.value.binding.value?.boundaryOffset
+            const boundary = config.value.binding.value?.boundary
             let boundaryOffsetX = boundary 
                                     ? (
                                         boundaryOffset?.x || (boundaryOffset && typeof boundaryOffset != Object) 
-                                        ? boundaryOffset.x
+                                        ? boundaryOffset
                                         : 0
                                     ) 
                                     : 0
             let boundaryOffsetY = boundary 
                                     ? (
                                         boundaryOffset?.y || (boundaryOffset && typeof boundaryOffset != Object) 
-                                        ? boundaryOffset.y
+                                        ? boundaryOffset
                                         : 0
                                     ) 
                                     : 0
 
-            position.value.x = binding.value?.x || 0
-            position.value.y = binding.value?.y || 0
+            config.value.position.x = config.value.binding.value?.x || 0
+            config.value.position.y = config.value.binding.value?.y || 0
             
-            parentElement.style.position = 'relative'
-            element.style.userSelect = 'none'
-            element.style.position = 'absolute'
+            boundaryElement.style.position = 'relative'
+            config.value.element.style.userSelect = 'none'
+            config.value.element.style.position = 'absolute'
             let mouseDownPosition = {
                 top: 0,
                 left: 0
@@ -45,9 +56,9 @@ const useDraggable = () => {
             
             // initial position for draggable element start
             setElementPosition(
-                element, 
-                (position.value?.x || 0) + boundaryOffsetX, 
-                (position.value?.y || 0) + boundaryOffsetY
+                config.value.element, 
+                (config.value.position?.x || 0) + boundaryOffsetX, 
+                (config.value.position?.y || 0) + boundaryOffsetY
             )
             // initial position for draggable element end
 
@@ -60,7 +71,8 @@ const useDraggable = () => {
                             : position
             }
 
-            const calculateThePosition = (event) => {
+            config.value.calculateThePosition = (event) => {
+                console.log(config.value.element.offsetTop)
                 const { x, y } = event
                 const { left, top, width, height } = parentStyleInformation
                 const { left: mDownLeft, top: mDownTop } = mouseDownPosition
@@ -87,41 +99,30 @@ const useDraggable = () => {
                     })
                 }
               
-                position.value.x = newX
-                position.value.y = newY
+                config.value.position.x = newX
+                config.value.position.y = newY
                 setElementPosition(element, newX, newY)
             }
               
-            let isMouseDown = false
-            let isMouseMove = false
-            element.onmousedown = function(event) {
+            config.value.element.onmousedown = function(event) {
                 if(!draggable) return
                 const targetInformation = event.target.getBoundingClientRect()
-                isMouseDown = true
+                config.value.isMouseDown = true
                 mouseDownPosition.top = event.y - targetInformation.y
                 mouseDownPosition.left = event.x - targetInformation.x
-                if(binding.value?.onDragStart){
-                    binding.value.onDragStart(position.value)
+                if(config.value.binding.value?.onDragStart){
+                    config.value.binding.value.onDragStart(config.value.position)
                 }
             }
-            document.addEventListener('mousemove', (event) => {
-                if(isMouseDown) {
-                    isMouseMove = true
-
-                    calculateThePosition(event)
-                    
-                    if(binding.value?.onDragging){
-                        binding.value.onDragging(position.value)
-                    }
-                }
-            })
+            document.addEventListener('mousemove', _handleMouseMove)
 
             document.addEventListener('mouseup', function() {
-                if(!isMouseDown) return
-                isMouseDown = false
-                if(isMouseMove){
-                    if(binding.value?.afterDragEnd){
-                        binding.value.afterDragEnd(position.value)
+                if(!config.value.isMouseDown) return
+                config.value.isMouseDown = false
+                
+                if(config.value.isMouseMove){
+                    if(config.value.binding.value?.afterDragEnd){
+                        config.value.binding.value.afterDragEnd(config.value.position)
                     }
                 }
 
@@ -129,13 +130,23 @@ const useDraggable = () => {
             
         },
         unmounted() {
-            window.removeEventListener('mousemove', () => {})
+            window.removeEventListener('mousemove', _handleMouseMove)
+        }
+    }
+        
+    const _handleMouseMove = function(event) {
+        if(config.value.isMouseDown) {
+            config.value.isMouseMove = true
+            config.value.calculateThePosition(event)
+            if(config.value.binding.value?.onDragging){
+                config.value.binding.value.onDragging(config.value.position)
+            }
         }
     }
 
     return {
         vDraggable,
-        position
+        position: config.value.position
     }
 }
 
