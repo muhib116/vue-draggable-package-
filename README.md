@@ -85,37 +85,38 @@ To make an element draggable, use the v-draggable directive on the desired HTML 
 
   
 
-## Properties of Configuration (all the properties are optional)
+### Properties of Configuration (all the properties are optional)
 
--  **x**
+**x**
 - Type: Number
 - Default: `0`
 - Description: Initial x position
--  **y**
+
+**y**
 - Type: Boolean
 - Default: `0`
 - Description: Initial y position
 
 ##### *initial x and y value also depend on offset*
 
--  **draggable**
+**draggable**
 - Type: Boolean
 - Default: `true`
 - Description: Set to `false` to disable dragging.
 
--  **boundary**
+**boundary**
 - Type: Boolean
 - Default: `false`
 - Description: Set to `true` to define a boundary for the draggable element.
 
--  **boundaryOffset**
+**boundaryOffset**
 - Type: Number/Object
 - Default: `0`
 - Description: Define the offset amount of the draggable element outside/inside the boundary. for outer offset set negative value.
 -  **Note:**  `boundaryOffset` not work if `boundary` set to false
 - Example: ``boundaryOffset: 0 or boundaryOffset: {x: 20, y: -40}``
 
--  **boundaryElement**
+**boundaryElement**
 - Type: String
 - Default: None
 - Description: CSS selector of the boundary element, that contains the draggable element. 
@@ -123,7 +124,7 @@ For example code follow this section:  **Example with configuration**
 
   
 
--  **scrollableParentElement**
+**scrollableParentElement**
 - Type: String
 - Default: body element
 - Description: CSS selector of the scrollable container, here is an example for better understanding.
@@ -144,9 +145,9 @@ For example code follow this section:  **Example with configuration**
 
 ```js
 <script  setup>
-	import useDraggable from 'vue-draggable-anywhere'
+  import useDraggable from 'vue-draggable-anywhere'
 
-	const { vDraggable, position } = useDraggable()
+  const { vDraggable, position } = useDraggable()
   const  configuration  = {
     boundaryElement: '.boundaryElement',
     scrollableParentElement: '.scrollableParentElement',
@@ -159,19 +160,19 @@ For example code follow this section:  **Example with configuration**
 </script>
 ```
 
--  **onDragStart**
+**onDragStart**
 - Type: Function
 - Default: None
 - Description: Functional prop called when drag starts, returns the current position of the draggable element.
 - example: ```onDragStart: yourFunction```
 
--  **onDragging**
+**onDragging**
 - Type: Function
 - Default: None
 - Description: Functional prop called during dragging, returns the current position of the draggable element.
 - example: ```onDragging: yourFunction```
 
--  **afterDragEnd**
+**afterDragEnd**
 - Type: Function
 - Default: None
 - Description: Functional prop called after the drag ends, returns the current position of the draggable element.
