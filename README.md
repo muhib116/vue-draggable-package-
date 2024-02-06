@@ -1,4 +1,4 @@
-![Vue draggable anywhere](https://lh3.googleusercontent.com/fife/AGXqzDmd_CW2-tI634rHC2H-ELEzOXkICRsYSktx4_lp2mchrXcb7OkM8KNrZQEWViypCY5R5kb47mzFdtHCxXKsmS4UEkVQYrPxSZBldYgLY50YdETRIrJRcD01vlPeuOPTs_VjnsboDUah3qCsQIfivqgS8gN1sZQvd7yhyyiN6Dek21fOBJzAiKGD8xtnjXsgkWrwzAS8vrAEGPiqZCmUjvTrmO_oyBA-gTkTsN0VPGuwOqdZXG8XjCZjax5pqUixcRQXgoulMVcHn46-Ukdjf7-8hfvxiKcEFwzAhBVLbVqIdQUBHuu6MHzyuyglc2KEsL5W_w4uVqK0k029Od50ToL7Lg8dA_fmE1hwgjOO2Odpq0JEvrZ1SLj8OFbAUqOsXcMer6zu6IPqRjTsmIxMVGmipG0dedVnvGYEOrJcSp7iLPz8J9Oa3pt0iFNoc0VYk8EYEpUemkSq2hCpFQx6j1Bx1fhhr_iOEanx7VeeMxbHkId_CUUr72KNFANFDFpUKw_p3UtXgAx2OC9xJr2k9zQtti3HIlybpIb9LjLiM0W1VXFCdP-kLSwUXqR9DbfL90aU68L9mZ78BV1HbreQPnTScL4_FJwYtEDTcLeVhywrYLix7ZibwnEFjhQWV61mEBfNy1Xwh3aNflQN4CgjblyZsVfu2ZildHF9txs1-3cSGl7wQ9kkKGIQ61OPW-hNKfAlwpr6RLp0bB9CfYEhccPWY7l3pAy6fe7UzLhOfzxS2CFgjdBICC9B9MUxt79_5rPfSvgqW6J9gyBsSufazVSlAVl_uELG7Ykr8wY5T4lgXyjHNJuuyt0Ua12Tzxfor2j4aQze8CLTDQbsdTXWUFDki_lSNCE1tJ5txnwI2CTEuHTQD2C95b3hZmwvw9_sSNTfadlpoVD9YotQF0KiTdEJTiutu_9BVzsAskDLcWDVdLxhRDBYLSJEaAH-QVZG0qdCmawrdEOBzZYlLqs9DJSEfnyfRzcMHXH5maz8LLbf9_pmNYwcFvVtbfzS6aCBUORY-0-MO3y58vG5gLRNx36Q5W4j-fEGy_PnxVf5cGCLimsc4tRtqLbbkpq-Ry1by09hE2UoW8Vr74y0EduMqB87rnGrLLFnoPpQaAMFKWT9OPocHTw8JcYOFRcX-UOr009NDoUmoWzLZXkbX1ZM7Bdd2q9PN8AMDft_e1KZBc8JL3wxsA6D7TIjd2IIUtfqj1TEahDD2uz31Y7uNbUFuRadsXguABmpwnYugrWf4EPnAfC3mh-mBPg9rSvLGqRvJRJU0oROyoKFeKrx1W1o3fm-1B0mPAcD5O-XFPOUIywgVNf4uv5WDQnqMkr-sHzHoE9YQj_Oyte3fK8JjUUrhQ-szJ1iyQHypfkmrAp0QJsBy6h4en8zTl4ZkyFbU5BglE2wC7EnQvrjYxyGIPe0O_r-aGyqk5nrfZcORhJ_Ss3dlbFHgz4TyKnIugAE245wo79Lhkno6PgezmSUEXOn-ud5ovog1w2xeSiK8eb0ceLHU1sdF7hZDqI2KmCqQmYrkkHamzjkTuvUn2-CTJryIXl3YX8ZtOnBsohvb8PPUKPOMiKtDJIZSHqGrt2aMc_n4w-HtsE_u2jClQjYotiQkOwKrzavnmfffdA5lmnRTdnAc_RMpR9YkoGwfw=w2880-h1398)
+![Vue draggable anywhere](https://lh3.googleusercontent.com/fife/AGXqzDllVrhQx1pC15wJU1INYIR85ovCUAagtUnAh-c6GdVnYXG5zcWaQMbymbeZtb0IfUsekY-4Je9A26jA6HiBEn7nPVTuW7LtYhWbTVTcJeBYLYL2qe4auM8wSciN_-HAo6GZEpjsbpIqXniDBqriH4GXtEfQ5nCby5dQbQFgEgwxRNPL0ZatAyP0M9WZc6Dsupg-ezh954D__i2hkXK1cM9BOsZZg3bNpzHjt-y7jJ1L_ljZDBOAKYrJAhNm4iVgWoHF7C_YowsO8JNUo4wXvV03rMsK1hVTQU75nciPS1y6g_TjTKPD_uW-3HdiqqkwiaoPdjZrHmXmJ2Td8ipv8NPQDlf6w1G6IeotWp7qCYGMfuWhNgrjpy0uFAdGt-AbX4TB5_ZnXSFrepUk4PITb3JgLH0HReTi_dwRNH1EYNUgrrsBpsoiYPt4gTrRR7GKz7bv-jfKzLqrj3wh87Bjb1ebaqcY8n_RtRINyGDmX4hpVsVVyh-dLXL4O5t2AMsGbQgmjag1r1X7NMx1HxtXSnFgV2K0Us7cBTEVm8nHu_yODso8oc435FRKUk68PHpxxxepBO-XhgBd8G8PmOJUwqlIDzFkipO-ahyS5o2-4Zsyren7ygj1ekehGNnWoS4PSvPOQw7bNP4Xzoc6wl7OpNdXauAEKvxubYvI6J_F-hnf683dhVb7cKLWxHqV0iXa-__FGSJ61k7R-usDMWx0Zbozzl6u_3Ircytg6mIsxT-KYT3vOjDb-Rwseet7gNoBy0fGfuWeSU4y_yFpGlOUYTKcIK8I2qO8HFX7sbL2ofiTb_feyRnLvof3DaN8b3JLWmZJ7nz7xcv5eNetjdNr67fwNSfpyq0FGWmNVgW5EgLZ2-XM03bKoLSnGPjwATuEF5F8Aefbxs_8wFZAvbVSoRBp4413zOlSgGDqOMNnuvcub4XekN6X8i7XOne3qMN63c4nC7yklRAKU4UvrTprpD5OtwdEKGrdAuIfE1axV2R7R6C0A08qcg4TTc4PhxZVue9D6z4qBMEiW78_EOksDWCi3EXcS5xFxugEqdicUnSVTxAGYzZRxk4WLjCT50R75FY8Ly2_vA7x5-TwYYTirQmWvlJyOnisFETdVc72XJtM1kB4niviES8om1Cv6GTrYo_YuE84Kg1Bw8I2XFq7nREX_6yw9PoUF-m_mxafG2gJCWIXuqzFK1kQjdSV5VplCpK1v_GTloBSCp98bnJnH2FKBfkm3TZcWcAEeBgzraPZDk7jd-9dxxOK5591FA_8c6FK5TUkHlUYnqml1wZ-PUyAIBKdrOImzO8Pula-IrBOq-0nFH0HrKDmIxrqaxjFzJG7ywdwHAI_LRWyuggZuxOKrHmmTjhv36TuI_DCBie1Wey4GCza9nDRYtJ2G2Efxx0T2TgyH8wvMFmXqQ1cmeE9MkEWg-kuJI_yQV9NpXNLjCzIpoHfIFoG8trMoKhTQnJNKKh_FmjhkPVZO5NeJl3K1rZz9YA1iCnH_ioF7zjawtjNUWruGtQhAkCLTWcjBfykd474CQ8dPtvAfwJZoS6hsXIWzC0bUJJW0D6t7Z-wEZcczflCh2XY0uwYwOyM3CIPLOB0kyXe4CeZPXL8NyapKLtCHSJ-k-28YOA4fyXyvimbpnIt8GTF3A=w2880-h1398)
 
 # vue3 draggable anywhere
 
@@ -14,11 +14,28 @@
   - 2.3 [Example With Multiple Draggable Elements With Configuration](#example-with-multiple-draggable-elements-with-configuration)
 
 3. [Properties of Configuration](#properties-of-configuration)
+3. [Why Choos Vue Draggable](#why-choos-vue-draggable)
 3. [Key Features](#key-features)
 
 ## Project Overview
-
 `vue-draggable-anywhere` is a Vue.js package supported by Vue3 that enables draggable behavior for HTML elements. It provides an easy-to-use directive to make any element draggable within a specified boundary.
+
+
+### Why Choos Vue Draggable
+1. **Support for Vue 3:**
+   - Description: Specifically designed for Vue.js 3.
+
+2. **Cross-Browser Compatibility:**
+    - Description: Tested for cross-browser compatibility to ensure consistent behavior across various web browsers.
+
+3. **Detailed Documentation:**
+    - Description: Comprehensive documentation with clear examples and explanations for easy implementation and troubleshooting.
+
+4. **Community Support:**
+    - Description: Active community support for addressing issues, answering queries, and contributing to the enhancement of the package.
+
+5. **Examples:**
+   - Description: Provides examples for basic usage and advanced configurations with multiple draggable elements.
 
 
 ## Installation
@@ -56,9 +73,6 @@ To make an element draggable, use the v-draggable directive on the desired HTML 
 </script>
 ```
 
-  
-  
-
 ### Example With Configuration
 
 ```html
@@ -74,8 +88,6 @@ To make an element draggable, use the v-draggable directive on the desired HTML 
   </div>
 </template>
 ```
-
-  
 
 ```javascript
 <script  setup>
@@ -122,8 +134,6 @@ To make an element draggable, use the v-draggable directive on the desired HTML 
 </template>
 ```
 
-  
-
 ```javascript
 <script  setup>
   import useDraggable from 'vue-draggable-anywhere'
@@ -146,6 +156,33 @@ To make an element draggable, use the v-draggable directive on the desired HTML 
 </script>
 ```
 **note:** *If you want you can use separate configuration for every element, if you don't need configuration you can skip.*
+
+
+### Key Features
+
+1. **Mobile Touch Support:**
+    - Description: Provides touch support for mobile devices, enabling seamless dragging on touch screens.
+
+2. **Multi-Element Draggable Support:**
+    - Description: Allows the implementation of multiple draggable elements on the same page, each with its own configuration.
+
+3. **Conditional Draggable:**
+    - Description: Provides the option to conditionally enable or disable dragging based on certain criteria.
+
+4. **Separate Configurations:**
+   - Description: Allows using separate configurations for each draggable element if needed.
+
+5. **Dynamic Position Tracking:**
+   - Description: Dynamically tracks and displays the position of the draggable element during and after dragging.
+
+6. **Event Handling:**
+    - Description: Supports callback functions for events such as drag start, dragging, and drag end.
+
+7. **Boundary Element:**
+    - Description: Option to specify a boundary element to constrain the draggable element within a certain area.
+
+8. **Scrollable Container Support:**
+    - Description: Allows specifying a scrollable parent element, ensuring proper functionality within scrollable containers.
 
 ### Properties Of Configuration 
 ##### *All the properties of the configuration are optional*
@@ -240,46 +277,3 @@ For example code follow this section:  **Example with configuration**
 - Default: None
 - Description: Functional prop called after the drag ends, returns the current position of the draggable element.
 - example: ```afterDragEnd: yourFunction```
-
-
-
-### Key Features
-
-1. **Mobile Touch Support:**
-    - Description: Provides touch support for mobile devices, enabling seamless dragging on touch screens.
-
-2. **Multi-Element Draggable Support:**
-    - Description: Allows the implementation of multiple draggable elements on the same page, each with its own configuration.
-
-3. **Conditional Draggable:**
-    - Description: Provides the option to conditionally enable or disable dragging based on certain criteria.
-
-4. **Cross-Browser Compatibility:**
-    - Description: Tested for cross-browser compatibility to ensure consistent behavior across various web browsers.
-
-5. **Detailed Documentation:**
-    - Description: Comprehensive documentation with clear examples and explanations for easy implementation and troubleshooting.
-
-6. **Community Support:**
-    - Description: Active community support for addressing issues, answering queries, and contributing to the enhancement of the package.
-
-7. **Examples:**
-   - Description: Provides examples for basic usage and advanced configurations with multiple draggable elements.
-
-8. **Separate Configurations:**
-   - Description: Allows using separate configurations for each draggable element if needed.
-
-9. **Dynamic Position Tracking:**
-   - Description: Dynamically tracks and displays the position of the draggable element during and after dragging.
-
-10. **Support for Vue 3:**
-   - Description: Specifically designed for Vue.js 3.
-
-11. **Event Handling:**
-    - Description: Supports callback functions for events such as drag start, dragging, and drag end.
-
-12. **Boundary Element:**
-    - Description: Option to specify a boundary element to constrain the draggable element within a certain area.
-
-13. **Scrollable Container Support:**
-    - Description: Allows specifying a scrollable parent element, ensuring proper functionality within scrollable containers.
