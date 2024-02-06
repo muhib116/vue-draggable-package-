@@ -20,6 +20,7 @@
 ## Project Overview
 `vue-draggable-anywhere` is a Vue.js package supported by Vue3 that enables draggable behavior for HTML elements. It provides an easy-to-use directive to make any element draggable within a specified boundary.
 
+[get vue-draggable in npmjs.com](https://www.npmjs.com/package/vue-draggable-anywhere)
 
 ### Why Choos Vue Draggable
 1. **Support for Vue 3:**
